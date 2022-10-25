@@ -84,6 +84,7 @@ p{
   width: 20%;
   float: left;
   margin: auto 30px 30px auto;
+  border-radius: 15%
 }
 
 .Copyright {
@@ -122,6 +123,10 @@ p{
 
 .Pro {
   text-decoration: underline;
+}
+
+.Portrait{
+  border-radius: 15%
 }
 
 .TopCloud {
