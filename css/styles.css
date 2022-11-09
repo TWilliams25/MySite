@@ -107,7 +107,6 @@ p{
 }
 
 .Top {
-  background-color: #9EF4FF;
   margin-top: 0;
   position: relative;
   padding-top: 100px
@@ -173,5 +172,41 @@ p{
 }
 
 .GameName{
-  text-align: center;
+  text-align: left;
+}
+
+.GamePassword{
+  margin: auto;
+}
+
+#MyName{
+    background-color: #9EF4FF;
+}
+
+.navbar{
+  margin: auto 0;
+}
+
+.nav-link{
+  color: #66BFBF;
+}
+
+@media (max-width: 1297px)
+{
+  .GameScreen{
+    width: 45%;
+    float: left;
+    margin: auto 30px 30px auto;
+    border-radius: 15%
+  }
+}
+
+@media (max-width: 1720px)
+{
+  .GameScreen{
+    width: 45%;
+    float: left;
+    margin: auto 30px 30px auto;
+    border-radius: 15%
+  }
 }

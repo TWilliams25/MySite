@@ -22,13 +22,37 @@
 </head>
 
 <body>
-  <div class="Top">
-    <img class="TopCloud" src="Images/cloud.png" alt="CloudImg">
-    <h1 class="Name">Tyler Williams</h1>
-    <h2 class="Desc">Game <span class="Pro">Pro</span>grammer</h2>
-    <img class="BotCloud" src="Images/cloud.png" alt="CloudImg">
-    <img src="Images/mountain.png" alt="MountainImg">
-  </div>
+  <section id="MyName">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#MyDescription">Description</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#MyGames">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#MyContact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="Top">
+      <img class="TopCloud" src="Images/cloud.png" alt="CloudImg">
+      <h1 class="Name">Tyler Williams</h1>
+      <h2 class="Desc">Game <span class="Pro">Pro</span>grammer</h2>
+      <img class="BotCloud" src="Images/cloud.png" alt="CloudImg">
+      <img src="Images/mountain.png" alt="MountainImg">
+    </div>
+  </section>
 
   <section id="MyDescription">
     <div class="Middle">
@@ -48,30 +72,40 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="skill-row">
-            <img class="GameScreen" src="Images/CryptRaiderIcon.png" alt="CryptRaider">
-            <h3 class="GameName">Crypt Raider</h3>
-            <p class="GameDesc">Enter the crypt and you will face a challenge to find the Golden Statue and retrieve it. Best of luck trying to uncover the hidden gold.</p>
+            <a href="https://mrgamedev.itch.io/crypt-raider">
+              <img class="GameScreen" src="Images/CryptRaiderIcon.png" alt="CryptRaider">
+              <h3 class="GameName">Crypt Raider</h3>
+              <p class="GameDesc">Enter the crypt and you will face a challenge to find the Golden Statue and retrieve it. Best of luck trying to uncover the hidden gold.</p>
+            </a>
+            <p class="GamePassword">Password: GoldRush</p>
           </div>
         </div>
         <div class="carousel-item">
           <div class="skill-row">
-            <img class="GameScreen" src="Images/ToonTanksIcon.png" alt="ToonTanks">
-            <h3 class="GameName">Toon Tanks</h3>
-            <p class="GameDesc">Using a small blue Tank, destroy the enemy Turrets to beat the game. Beware as they are also capable of destroying you too.</p>
+            <a href="https://mrgamedev.itch.io/toon-tanks">
+              <img class="GameScreen" src="Images/ToonTanksIcon.png" alt="ToonTanks">
+              <h3 class="GameName">Toon Tanks</h3>
+              <p class="GameDesc">Using a small blue Tank, destroy the enemy Turrets to beat the game. Beware as they are also capable of destroying you too.</p>
+            </a>
+            <p class="GamePassword">Password: TankGame</p>
           </div>
         </div>
         <div class="carousel-item">
           <div class="skill-row">
-            <img class="GameScreen" src="Images/SimpleShooterIcon.png" alt="SimpleShooter">
-            <h3 class="GameName">Simple Shooter</h3> <!-- Work In Progress -->
-            <p class="GameDesc">A simple third-person shooter where you run around the map searching for the boss. Defeat the boss to win the game.</p>
+            <a href="https://www.dropbox.com/sh/b71rr3hb6mgv4fk/AAAB3pyu9nqUrqFsQMs5brwZa?dl=0">
+              <img class="GameScreen" src="Images/SimpleShooterIcon.png" alt="SimpleShooter">
+              <h3 class="GameName">Simple Shooter</h3> <!-- Work In Progress -->
+              <p class="GameDesc">A simple third-person shooter where you run around the map searching for the boss. Defeat the boss to win the game.</p>
+            </a>
           </div>
         </div>
         <div class="carousel-item">
           <div class="skill-row">
-            <img class="GameScreen" src="Images/KTTDIcon.png" alt="KTTD">
-            <h3 class="GameName">Karate Toad Tower Defense</h3> <!-- Work In Progress -->
-            <p class="GameDesc">Play as a Toad and defeat the enemy spiders coming to take your castle in waves. Use turrets to help you along the way.</p>
+            <a href="https://mrgamedev.itch.io/karate-toad-tower-defense">
+              <img class="GameScreen" src="Images/KTTDIcon.png" alt="KTTD">
+              <h3 class="GameName">Karate Toad Tower Defense</h3> <!-- Work In Progress -->
+              <p class="GameDesc">Play as a Toad and defeat the enemy spiders coming to take your castle in waves. Use turrets to help you along the way.</p>
+            </a>
           </div>
         </div>
       </div>
@@ -86,37 +120,24 @@
     </div>
   </section>
 
-  <!-- <div class="skills">
-      <h2>My Games.</h2>
-      <div class="skill-row">
-        <img class="GameScreen" src="Images/CryptRaiderIcon.png" alt="CryptRaider">
-        <h3 class="GameName">Crypt Raider</h3>
-        <p class="GameDesc">Enter the crypt and you will face a challenge to find the Golden Statue and retrieve it. Best of luck trying to uncover the hidden gold.</p>
-      </div>
-      <div class="skill-row">
-        <img class="GameScreen" src="Images/ToonTanksIcon.png" alt="ToonTanks">
-        <h3 class="GameName">Toon Tanks</h3>
-        <p class="GameDesc">Using a small blue Tank, destroy the enemy Turrets to beat the game. Beware as they are also capable of destroying you too.</p>
-      </div>
-    </div> -->
-
   <hr>
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>If you have any questions about my games</h3>
-    <p class="contact-desc">If you would like to get in touch with me, please use the links below.</p>
-    <a class="btn" href="mailto:TWilliams0325@outlook.com">CONTACT ME</a>
-  </div>
-  </div>
+  <section id="MyContact">
 
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you have any questions about my games</h3>
+      <p class="contact-desc">If you would like to get in touch with me, please use the links below.</p>
+      <a class="btn" href="mailto:TWilliams0325@outlook.com">CONTACT ME</a>
+    </div>
+  </section>
 
-  <div class="Bottom">
-    <a class="footer-link" href="https://www.linkedin.com/in/tyler-w-a2b7a8132/">LinkedIn</a>
-    <a class="footer-link" href="https://mrgamedev.itch.io">Website</a>
-    <p class="Copyright">© Tyler Williams</p>
-  </div>
-
-  </div>
+  <section id="MyLinks">
+    <div class="Bottom">
+      <a class="footer-link" href="https://www.linkedin.com/in/tyler-w-a2b7a8132/">LinkedIn</a>
+      <a class="footer-link" href="https://mrgamedev.itch.io">Website</a>
+      <p class="Copyright">© Tyler Williams</p>
+    </div>
+  </section>
 </body>
 
 </html>
