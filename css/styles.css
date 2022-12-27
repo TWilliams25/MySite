@@ -3,6 +3,11 @@
   padding: 10% 10%;
 }
 
+#MySites{
+  background-color: #9EF4FF;
+  padding: 10% 10%;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -189,6 +194,10 @@ p{
 
 .nav-link{
   color: #66BFBF;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  color: gray;
 }
 
 @media (max-width: 1297px)
